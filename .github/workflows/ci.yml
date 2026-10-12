@@ -54,7 +54,7 @@ jobs:
           sonar-org-key: ${{ secrets.SONAR_ORG_KEY }}
 
       - name: Build Complete
-        run: echo "SMBC Payment Service CI completed successfully"
+        run: echo "Deploying Payment Service CI completed successfully"
 
   production-deployment:
     name: Production Deployment
@@ -74,5 +74,5 @@ jobs:
 
       - name: Deploy to Production
         run: |
-          echo "Deploying SMBC Payment Service to Production"
+          echo "Deploying Demo Payment Service to Production"
           echo "Production deployment completed successfully"
