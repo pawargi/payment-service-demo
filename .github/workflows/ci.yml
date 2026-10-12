@@ -38,7 +38,7 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
 
       - name: Build Complete
-        run: echo "SMBC Payment Service CI completed successfully"
+        run: echo "Demo Payment Service CI completed successfully"
 
   production-deployment:
     name: Production Deployment
@@ -48,5 +48,5 @@ jobs:
     steps:
       - name: Deploy to Production
         run: |
-          echo "Deploying SMBC Payment Service to Production"
+          echo "Deploying Demo Payment Service to Production"
           echo "Production deployment completed successfully"
