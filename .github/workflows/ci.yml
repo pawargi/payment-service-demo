@@ -74,5 +74,5 @@ jobs:
 
       - name: Deploy to Production
         run: |
-          echo "Deploying of Demo Payment Service to Production"
+          echo "Deploying Demo Payment Service to Production"
           echo "Production deployment completed successfully"
